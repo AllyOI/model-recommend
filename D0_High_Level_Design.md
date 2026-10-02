@@ -62,7 +62,7 @@ The diagram shows three components the team builds — Recommendation Client, Re
 
 See `D0_High_Level_Design.drawio` (editable source, Page 2) and `D0_dataflow_diagram.png` (rendered).
 
-![D0 Data-Flow Diagram](D0_dataflow_diagram.png)
+![D0 Data-Flow Diagram](images/D0_dataflow_diagram.png)
 
 The brief moves stage by stage: the actor fills in the brief form; the Server validates it; the Server dispatches sanitized sample prompts to the vendor LLM(s) over I3; the Server scores and ranks the responses; the Server stores the report via I4; and the Client displays the ranked shortlist back to the actor (closing the loop over I1/I2).
 
