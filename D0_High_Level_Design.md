@@ -17,7 +17,7 @@
 
 See `D0_High_Level_Design.drawio` (editable source, Page 1) and `D0_block_diagram.png` (rendered).
 
-![D0 Block Diagram](D0_block_diagram.png)
+![D0 Block Diagram](images/D0_block_diagram.png)
 
 The diagram shows three components the team builds — Recommendation Client, Recommendation Server, and Report Store — plus one external dependency (Recommendation LLM, standing in for the vendor APIs that generate a recommendation, drawn dashed). An Actor (the person using the system) is shown outside the system boundary per standard UML convention.
 
