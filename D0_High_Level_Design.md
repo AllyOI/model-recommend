@@ -15,7 +15,7 @@
 
 ## 2. Block Diagram (D0)
 
-See `D0_High_Level_Design.drawio` (editable source, Page 1) and `D0_block_diagram.png` (rendered).
+See [D0_High_Level_Design.drawio](D0_High_Level_Design.drawio) and `D0_block_diagram.png` (rendered).
 
 ![D0 Block Diagram](images/D0_block_diagram.png)
 
