@@ -1,0 +1,56 @@
+gantt
+  title Model Recommend - implementation timeline (buffer shown separately)
+  dateFormat YYYY-MM-DD
+  axisFormat %b %d
+  excludes weekends
+  section Fall 2026
+  T1 Obtain keys and hosting (Aditya)      :crit, t1, 2026-11-02, 2026-11-20
+  T1 buffer                                :done, 2026-11-23, 2026-11-25
+  T2 Research vendor APIs (Aditya)         :t2, 2026-11-16, 2026-12-01
+  T2 buffer                                :done, 2026-12-02, 2026-12-03
+  MI-1 Dev environment ready               :milestone, 2026-12-04, 0d
+  Winter break (no work planned)           :active, 2026-12-12, 2027-01-10
+  section Foundations
+  T4 Config and logging (Allison)          :t4, 2027-01-11, 2027-01-15
+  T4 buffer                                :done, 2027-01-18, 1d
+  T3 Report Store (Allison)                :crit, t3, 2027-01-13, 2027-01-22
+  T3 buffer                                :done, 2027-01-25, 2027-01-26
+  T5 Authentication (Aditya)               :t5, 2027-01-11, 2027-01-20
+  T5 buffer                                :done, 2027-01-21, 2027-01-22
+  M0 CI and config deployed                :milestone, 2027-01-20, 0d
+  Protected block before M1                :active, 2027-01-27, 2027-01-28
+  M1 Walking skeleton                      :milestone, 2027-01-29, 0d
+  section Recommendation engine
+  T6 LLM adapter (Aditya)                  :t6, 2027-01-21, 2027-01-29
+  T6 buffer                                :done, 2027-02-01, 2027-02-02
+  T7 A1 dispatch (Aditya)                  :crit, t7, 2027-02-02, 2027-02-12
+  T7 buffer                                :done, 2027-02-15, 2027-02-16
+  M2 Real vendor benchmarks logged         :milestone, 2027-02-16, 0d
+  T8 A2 scoring (Aditya)                   :crit, t8, 2027-02-15, 2027-02-19
+  T8 buffer                                :done, 2027-02-22, 1d
+  T9 Run lifecycle E1 E5 E6 (Aditya)       :crit, t9, 2027-02-23, 2027-03-04
+  T9 buffer                                :done, 2027-03-05, 2027-03-08
+  M3 Ranked shortlist through the API      :milestone, 2027-03-09, 0d
+  section Workflows
+  T10 Notifications (Allison)              :t10, 2027-02-01, 2027-02-10
+  T10 buffer                               :done, 2027-02-11, 2027-02-12
+  T11 Approval review selection endpoints (Allison) :t11, 2027-02-15, 2027-02-24
+  T11 buffer                               :done, 2027-02-25, 2027-02-26
+  section Client
+  T12 Client S1-S3 (Allison)               :crit, t12, 2027-03-01, 2027-03-10
+  T12 buffer                               :done, 2027-03-11, 2027-03-12
+  Spring break (no work planned)           :active, 2027-03-15, 2027-03-21
+  Protected block before M4                :active, 2027-03-22, 2027-03-24
+  M4 MVP advisor demo                      :milestone, 2027-03-25, 0d
+  T13 Client S4-S6 (Allison)               :crit, t13, 2027-03-23, 2027-04-05
+  T13 buffer                               :done, 2027-04-06, 2027-04-07
+  Protected block before M5                :active, 2027-04-08, 2027-04-09
+  M5 Feature complete                      :milestone, 2027-04-10, 0d
+  section Validation
+  T15 Validate AC-01.1 and AC-01.3 (Aditya) :t15, 2027-03-10, 2027-03-31
+  T15 buffer                               :done, 2027-04-01, 2027-04-02
+  T14 End-to-end tests (Allison)           :crit, t14, 2027-04-12, 2027-04-21
+  T14 buffer                               :done, 2027-04-22, 2027-04-23
+  Protected block before M6                :active, 2027-04-26, 2027-04-27
+  M6 Validation complete                   :milestone, 2027-04-28, 0d
+  M7 Final presentation and handoff        :milestone, 2027-04-30, 0d
