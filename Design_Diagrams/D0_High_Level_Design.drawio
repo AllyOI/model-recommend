@@ -1,0 +1,125 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="IXl-c1hFaBqgZ_nq9if5">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_htMrqDRAwm8by4jxEH6-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Project Title: Model Recommend" vertex="1">
+          <mxGeometry height="30" width="190" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Goal statement: The goal of our project is to recommend a particular AI model based on user input.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Basic input: The basic input to the system is a project brief specifying budget ceiling, latency requirements, and a task description.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Basic output: The basic output of the system is a ranked shortlist with reasoning behind the rankings.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="420" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Legend&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;A solid blue box is a component the team builds. A dashed gray box is an external, third-party system (see swatches to the right).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Each line is an interface; its ID (I1-I4) is keyed to the Interface Specification Table in the D0 document.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="360" x="20" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TITLE, GOAL STATEMENT, AND CONVENTIONS" vertex="1">
+          <mxGeometry height="50" width="230" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="BLOCK DIAGRAM" vertex="1">
+          <mxGeometry height="50" width="180" x="45" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="45" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-12" value="I2" edge="1" parent="1" source="_htMrqDRAwm8by4jxEH6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_htMrqDRAwm8by4jxEH6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-9" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dbe9f7;strokeColor=#2b6cb0;strokeWidth=2;fontStyle=1;" value="Recommendation Client" vertex="1">
+          <mxGeometry height="130" width="130" x="190" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-14" value="I3" edge="1" parent="1" source="_htMrqDRAwm8by4jxEH6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_htMrqDRAwm8by4jxEH6-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-15" edge="1" parent="1" source="_htMrqDRAwm8by4jxEH6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="_htMrqDRAwm8by4jxEH6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dbe9f7;strokeColor=#2b6cb0;strokeWidth=2;fontStyle=1;" value="Recommendation Server" vertex="1">
+          <mxGeometry height="130" width="130" x="425" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-11" edge="1" parent="1" source="_htMrqDRAwm8by4jxEH6-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_htMrqDRAwm8by4jxEH6-9" value="I1">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="450" as="sourcePoint" />
+            <mxPoint x="330" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-17" edge="1" parent="1" source="_htMrqDRAwm8by4jxEH6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="_htMrqDRAwm8by4jxEH6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-13" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f2f2f2;strokeColor=#555555;strokeWidth=2;dashed=1;fontStyle=1;" value="Recommendation LLM&lt;div&gt;(vendor APIs: OpenAI, Anthropic, etc.)&lt;/div&gt;&lt;div&gt;[EXTERNAL]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="425" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-16" edge="1" parent="1" source="_htMrqDRAwm8by4jxEH6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" target="_htMrqDRAwm8by4jxEH6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="COMPONENT RESPONSIBILITY TABLE" vertex="1">
+          <mxGeometry height="50" width="180" x="45" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-40" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dbe9f7;strokeColor=#2b6cb0;strokeWidth=2;fontStyle=1;" value="Report Store" vertex="1"><mxGeometry height="130" width="130" x="625" y="355" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-41" edge="1" parent="1" source="_htMrqDRAwm8by4jxEH6-10" target="_htMrqDRAwm8by4jxEH6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="I4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-42" edge="1" parent="1" source="_htMrqDRAwm8by4jxEH6-40" target="_htMrqDRAwm8by4jxEH6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" value=""><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-50" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dbe9f7;strokeColor=#2b6cb0;strokeWidth=2;fontStyle=1;" value="" vertex="1"><mxGeometry height="20" width="26" x="390" y="220" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;" value="Component we build" vertex="1"><mxGeometry height="24" width="180" x="425" y="218" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-52" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f2f2f2;strokeColor=#555555;strokeWidth=2;dashed=1;fontStyle=1;" value="" vertex="1"><mxGeometry height="20" width="26" x="390" y="255" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;" value="External system (vendor API)" vertex="1"><mxGeometry height="24" width="220" x="425" y="253" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_h0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#999999;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="Component" vertex="1"><mxGeometry height="36" width="170" x="45" y="760" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_h1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#999999;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="Responsibility" vertex="1"><mxGeometry height="36" width="300" x="215" y="760" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_h2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#999999;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="Interfaces In" vertex="1"><mxGeometry height="36" width="110" x="515" y="760" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_h3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#999999;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="Interfaces Out" vertex="1"><mxGeometry height="36" width="110" x="625" y="760" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_h4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#999999;fontStyle=1;fontSize=11;align=center;verticalAlign=middle;" value="Owner" vertex="1"><mxGeometry height="36" width="120" x="735" y="760" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r0_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Recommendation Client" vertex="1"><mxGeometry height="60" width="170" x="45" y="796" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r0_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Presents the project-brief form to the actor and displays the ranked recommendation with its reasoning." vertex="1"><mxGeometry height="60" width="300" x="215" y="796" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r0_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="I1, I2" vertex="1"><mxGeometry height="60" width="110" x="515" y="796" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r0_c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="I1, I2" vertex="1"><mxGeometry height="60" width="110" x="625" y="796" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r0_c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Allison Oh" vertex="1"><mxGeometry height="60" width="120" x="735" y="796" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r1_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Recommendation Server" vertex="1"><mxGeometry height="60" width="170" x="45" y="856" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r1_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Validates the submitted brief, dispatches sanitized prompts to the vendor LLMs, and scores the responses into a ranked list." vertex="1"><mxGeometry height="60" width="300" x="215" y="856" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r1_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="I2, I3, I4" vertex="1"><mxGeometry height="60" width="110" x="515" y="856" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r1_c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="I2, I3, I4" vertex="1"><mxGeometry height="60" width="110" x="625" y="856" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r1_c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Aditya Pawar" vertex="1"><mxGeometry height="60" width="120" x="735" y="856" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r2_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Report Store" vertex="1"><mxGeometry height="60" width="170" x="45" y="916" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r2_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Persists each client's recommendation report so it can be retrieved later." vertex="1"><mxGeometry height="60" width="300" x="215" y="916" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r2_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="I4" vertex="1"><mxGeometry height="60" width="110" x="515" y="916" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r2_c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="I4" vertex="1"><mxGeometry height="60" width="110" x="625" y="916" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r2_c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Allison Oh" vertex="1"><mxGeometry height="60" width="120" x="735" y="916" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r3_c0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Recommendation LLM (external)" vertex="1"><mxGeometry height="60" width="170" x="45" y="976" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r3_c1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="Returns a benchmark completion for each sanitized sample prompt it receives." vertex="1"><mxGeometry height="60" width="300" x="215" y="976" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r3_c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="I3" vertex="1"><mxGeometry height="60" width="110" x="515" y="976" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r3_c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="I3" vertex="1"><mxGeometry height="60" width="110" x="625" y="976" as="geometry" /></mxCell>
+        <mxCell id="_htMrqDRAwm8by4jxEH6-t_r3_c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=10;align=left;verticalAlign=middle;spacing=4;" value="N/A — third-party" vertex="1"><mxGeometry height="60" width="120" x="735" y="976" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Data-Flow Diagram" id="df-page-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1150" pageHeight="550" math="0" shadow="0">
+      <root>
+        <mxCell id="df0" />
+        <mxCell id="df1" parent="df0" />
+        <mxCell id="df_title" value="TITLE, GOAL STATEMENT, AND CONVENTIONS" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=16;" vertex="1" parent="df1"><mxGeometry x="20" y="10" width="500" height="30" as="geometry"/></mxCell>
+        <mxCell id="df_proj" value="Project Title: Model Recommend" style="text;html=1;align=left;verticalAlign=middle;" vertex="1" parent="df1"><mxGeometry x="20" y="50" width="300" height="24" as="geometry"/></mxCell>
+        <mxCell id="df_goal" value="Goal statement: The goal of our project is to recommend a particular AI model based on user input.&amp;lt;div&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;Basic input: a project brief specifying budget ceiling, latency requirements, and a task description.&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;Basic output: a ranked shortlist with reasoning behind the rankings.&amp;lt;/div&amp;gt;" style="text;html=1;align=left;verticalAlign=top;" vertex="1" parent="df1"><mxGeometry x="20" y="80" width="500" height="70" as="geometry"/></mxCell>
+        <mxCell id="df_legend" value="Legend&amp;lt;div&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div&amp;gt;Orange box = a processing stage. Gray box = data crossing an arrow, named and in its current form at that point. Arrows run left to right in the order data moves.&amp;lt;/div&amp;gt;" style="text;html=1;align=left;verticalAlign=top;" vertex="1" parent="df1"><mxGeometry x="20" y="160" width="560" height="70" as="geometry"/></mxCell>
+        <mxCell id="df_heading" value="DATA-FLOW DIAGRAM" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=16;" vertex="1" parent="df1"><mxGeometry x="20" y="240" width="300" height="40" as="geometry"/></mxCell>
+        <mxCell id="df_s1" value="Actor fills
+brief form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fde9d9;strokeColor=#b5651d;strokeWidth=2;fontStyle=1;fontSize=12;" vertex="1" parent="df1"><mxGeometry x="20" y="320" width="160" height="70" as="geometry"/></mxCell>
+        <mxCell id="df_s2" value="Server validates
+brief" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fde9d9;strokeColor=#b5651d;strokeWidth=2;fontStyle=1;fontSize=12;" vertex="1" parent="df1"><mxGeometry x="200" y="320" width="160" height="70" as="geometry"/></mxCell>
+        <mxCell id="df_s3" value="Server dispatches
+sanitized prompts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fde9d9;strokeColor=#b5651d;strokeWidth=2;fontStyle=1;fontSize=12;" vertex="1" parent="df1"><mxGeometry x="380" y="320" width="160" height="70" as="geometry"/></mxCell>
+        <mxCell id="df_s4" value="Server scores
+&amp; ranks responses" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fde9d9;strokeColor=#b5651d;strokeWidth=2;fontStyle=1;fontSize=12;" vertex="1" parent="df1"><mxGeometry x="560" y="320" width="160" height="70" as="geometry"/></mxCell>
+        <mxCell id="df_s5" value="Server stores
+report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fde9d9;strokeColor=#b5651d;strokeWidth=2;fontStyle=1;fontSize=12;" vertex="1" parent="df1"><mxGeometry x="740" y="320" width="160" height="70" as="geometry"/></mxCell>
+        <mxCell id="df_s6" value="Client displays
+shortlist to actor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fde9d9;strokeColor=#b5651d;strokeWidth=2;fontStyle=1;fontSize=12;" vertex="1" parent="df1"><mxGeometry x="920" y="320" width="160" height="70" as="geometry"/></mxCell>
+        <mxCell id="df_e0" value="raw brief (I2, JSON)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;strokeWidth=1.3;" edge="1" parent="df1" source="df_s1" target="df_s2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="df_e1" value="validated brief" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;strokeWidth=1.3;" edge="1" parent="df1" source="df_s2" target="df_s3"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="df_e2" value="vendor responses (I3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;strokeWidth=1.3;" edge="1" parent="df1" source="df_s3" target="df_s4"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="df_e3" value="ranked shortlist (I4)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;strokeWidth=1.3;" edge="1" parent="df1" source="df_s4" target="df_s5"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="df_e4" value="stored report + shortlist (I2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;fontSize=10;fontStyle=2;labelBackgroundColor=#ffffff;strokeWidth=1.3;" edge="1" parent="df1" source="df_s5" target="df_s6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="df_note" value="Client renders the result to the Actor over I1 (not a separate stage — same UI the brief came in on)." style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontStyle=2;" vertex="1" parent="df1"><mxGeometry x="920" y="410" width="200" height="50" as="geometry"/></mxCell>
+        <mxCell id="df_gap_note" value="Note: this flow covers the recommendation path only. Vendor-approval / compliance review (last week's US-04) and platform rate-limit alerting (US-05) are not yet represented as separate stages at this D0 level of abstraction — flagged for the team to confirm before D1." style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontColor=#b03a2e;fontStyle=2;" vertex="1" parent="df1"><mxGeometry x="20" y="430" width="1060" height="40" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
