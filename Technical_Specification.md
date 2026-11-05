@@ -3,7 +3,7 @@
 **Project:** Model Recommend (Concentrate AI)
 **Team:** Allison Oh, Aditya Pawar
 **Advisors:** Jillian Aurisano (Department of Computer Science), Todd Liebermann (Concentrate AI)
-**Document version:** 1.0 (2026-10-29)
+**Document version:** 1.1 (2026-11-04)
 **Traces to:** *Requirements_Document.md* **v1.0 (2026-10-29)**. Every REQ, NFR and CON ID below refers to that version.
 
 Design sources, linked rather than copied: [D0 High-Level Design](Design_Diagrams/D0_High_Level_Design.md), [D1 Detailed Design](Design_Diagrams/D1_Detailed_Design.md), [D2 Detailed Design](Design_Diagrams/D2_Detailed_Design.md), [Planning/Plan.md](Planning/Plan.md). Terms follow the glossary in the Requirements Document, Section 4.
@@ -13,6 +13,7 @@ Design sources, linked rather than copied: [D0 High-Level Design](Design_Diagram
 | Version | Date | Change | Author |
 |---|---|---|---|
 | 1.0 | 2026-10-29 | First version. Consolidates D0 (2026-10-02), D1 (2026-10-08) and D2 (2026-10-14) into one specification traced to Requirements Document v1.0. | Allison Oh, Aditya Pawar |
+| 1.1 | 2026-11-04 | Test-case IDs: each TC-nn in the Section 6 matrix is now a group of cases TC-nn.m defined in *Test_Plan.md* v1.0 (for example TC-06.1 to TC-06.4). No group was added, removed or renumbered. Still traces to Requirements Document v1.0. | Allison Oh |
 
 **Design changes since the D1 and Week 7 (D2) reviews, and why.** No component was added or removed after D2. The changes below were made in D2 or are applied in this specification to close D2's known gaps.
 
@@ -174,7 +175,7 @@ Each constraint from the Requirements Document, Section 8, restated with what it
 
 ## 6. Traceability Matrix
 
-Design Component names the D0 component and the D1 or D2 element. Status: **Designed** (complete in D0–D2), **In progress** (designed, with an open question that may change it), **Planned** (not yet designed). Test cases TC-01–TC-29 are reserved here and will be written in the Week 10 test plan (Assignment 10). No row is orphaned.
+Design Component names the D0 component and the D1 or D2 element. Status: **Designed** (complete in D0–D2), **In progress** (designed, with an open question that may change it), **Planned** (not yet designed). Test cases TC-01–TC-29 are groups; the individual cases (TC-nn.1, TC-nn.2, …) are in [Test_Plan.md](Test_Plan.md). No row is orphaned.
 
 | Req ID | Description | Design Component (D0/D1/D2) | Status | Test Case |
 |---|---|---|---|---|
