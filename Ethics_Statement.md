@@ -180,10 +180,14 @@ The same list is in `NOTICE.md` at the repository root.
 
 Syllabus policy: "Generative AI tools may be used for drafting and code assistance but not for the design decisions or written analysis that are assessed in this course."
 
-**Before October 2026.** The constraints essay, user stories, D0 and D1, and everything else completed before the team started using Claude in mid-October 2026, were written without generative AI tools.
+**Before mid-October 2026.** Aditya Pawar used Claude in separate sessions to edit and polish documents the team had already written (rows 1–4). The team wrote that content; Claude changed wording, grammar and formatting only. Allison Oh's professional biography was written without AI tools.
 
 | Tool | Used by | Task | Column | How verified |
 |---|---|---|---|---|
+| Claude (Anthropic, separate sessions) | Aditya Pawar | Edited and polished the Constraints Essay (Week 3) and User Stories and Use Cases (Week 4) | Generally OK | Author compared each edit with the original before committing |
+| Claude (separate sessions) | Aditya Pawar | Edited and polished D0 High-Level Design (2026-10-02) | Generally OK | Same: edits reviewed against the team's draft |
+| Claude (separate sessions) | Aditya Pawar | Edited and polished D1 Detailed Design (2026-10-08) | Generally OK | Same: edits reviewed against the team's draft |
+| Claude (separate sessions) | Aditya Pawar | Edited and polished Aditya's professional biography, the Team Contract and the Project Description | Generally OK | Same: edits reviewed against the team's draft |
 | Claude (Anthropic, Claude app) | Aditya Pawar | Drafted D2 sections and redrew Fig D2-1 to D2-5 (A7) | Not OK without disclosure | Aditya reviewed each section and figure against D0/D1 before committing |
 | Claude | Aditya Pawar | Drafted peer-review feedback on the Kraft team's D2 | Not OK without disclosure | Read against the other team's document before sending |
 | Claude | Aditya Pawar | Drafted the A8 task list, milestones, timeline and effort matrix, plus the Gantt and WBS sources | Not OK without disclosure | Dates and owners checked against the course calendar and the team contract |
