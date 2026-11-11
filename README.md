@@ -26,6 +26,7 @@ Model Recommend helps Concentrate AI's business customers choose an AI model. A 
 | [Requirements_Document.md](Requirements_Document.md) | Requirements v1.0: REQ-01–REQ-16, NFR-05–NFR-16, MoSCoW, constraints CON-01–CON-05 (Week 9) |
 | [Technical_Specification.md](Technical_Specification.md) | Technical specification v1.1: architecture, interfaces, stack, traceability matrix (Week 9) |
 | [Test_Plan.md](Test_Plan.md) | Test and validation plan v1.0: scope, V&V strategy, metrics, test cases TC-01 to TC-29, environments, schedule (Week 10) |
+| [Ethics_Statement.md](Ethics_Statement.md) | Privacy, security, licensing, attribution and AI-use statement v1.0 (Week 11) |
 | [Aditya_Pawar_Professional_Biography.md](Aditya_Pawar_Professional_Biography.md), [Professional-Biography_Allison-Oh.md](Professional-Biography_Allison-Oh.md) | Professional biographies |
 
 ## 4. Repository Layout
@@ -35,6 +36,13 @@ Model Recommend helps Concentrate AI's business customers choose an AI model. A 
 - `Planning/`: plan sources, Gantt chart, work breakdown structure and the Assignment 8 PDF
 - `Assignment9/`: PDFs of the Requirements Document and Technical Specification
 - `Assignment10/`: PDF of the Test and Validation Plan
+- `Assignment11/`: PDF of the Ethics Statement
+
+## 5. Ethics, Licensing and Attribution
+
+- [Ethics_Statement.md](Ethics_Statement.md): privacy summary, security summary and self-audit, licensing summary, attribution list and AI-use disclosure.
+- [LICENSE](LICENSE): this project is released under the MIT License.
+- [NOTICE.md](NOTICE.md): attributions for third-party libraries, tools, fonts and assets.
 
 ## Appendix A. Document Versions
 
@@ -43,3 +51,4 @@ Model Recommend helps Concentrate AI's business customers choose an AI model. A 
 | Requirements_Document.md | 1.0 | 2026-10-29 | User_Stories.md, Constraints_Essay.md |
 | Technical_Specification.md | 1.1 | 2026-11-04 | Requirements Document v1.0 |
 | Test_Plan.md | 1.0 | 2026-11-04 | Requirements Document v1.0, Technical Specification v1.1 |
+| Ethics_Statement.md | 1.0 | 2026-11-11 | Requirements Document v1.0, Technical Specification v1.1, Test Plan v1.0 |
