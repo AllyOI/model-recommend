@@ -59,8 +59,8 @@ Per-slide times for R1 were read from slide changes in the recording, to within 
 
 ## 5. Backup Copy
 
-| Item | Plan | Done |
+| Item | Plan | Status |
 |---|---|---|
-| USB drive | `ModelRecommend_Presentation_Final.pptx` and `.pdf` | ☐ |
-| Offline cloud copy | Both files in the shared OneDrive folder, marked "Always keep on this device" | ☐ |
-| Tested on another machine | Open the PPTX on a computer that isn't ours and check fonts and images | ☐ |
+| USB drive | `ModelRecommend_Presentation_Final.pptx` and `.pdf` | ☑ Done |
+| Offline cloud copy | Both files in the shared OneDrive folder, marked "Always keep on this device" | ☑ Done |
+| Tested on another machine | Open the PPTX on a computer that isn't ours and check fonts and images | ☑ Done |
