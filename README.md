@@ -27,7 +27,7 @@ Model Recommend helps Concentrate AI's business customers choose an AI model. A 
 | [Technical_Specification.md](Technical_Specification.md) | Technical specification v1.1: architecture, interfaces, stack, traceability matrix (Week 9) |
 | [Test_Plan.md](Test_Plan.md) | Test and validation plan v1.0: scope, V&V strategy, metrics, test cases TC-01 to TC-29, environments, schedule (Week 10) |
 | [Ethics_Statement.md](Ethics_Statement.md) | Privacy, security, licensing, attribution and AI-use statement v1.0 (Week 11) |
-| [Presentation/](Presentation/) | Draft presentation deck (PPTX and PDF), slide outline with speakers and timing, and advisor feedback (Week 12) |
+| [Presentation/](Presentation/) | Draft and final presentation decks (PPTX and PDF), slide outline, advisor feedback (Week 12), run sheet and rehearsal log (Week 13) |
 | [Aditya_Pawar_Professional_Biography.md](Aditya_Pawar_Professional_Biography.md), [Professional-Biography_Allison-Oh.md](Professional-Biography_Allison-Oh.md) | Professional biographies |
 
 ## 4. Repository Layout
@@ -38,7 +38,7 @@ Model Recommend helps Concentrate AI's business customers choose an AI model. A 
 - `Assignment9/`: PDFs of the Requirements Document and Technical Specification
 - `Assignment10/`: PDF of the Test and Validation Plan
 - `Assignment11/`: PDF of the Ethics Statement
-- `Presentation/`: draft deck, `Slide_Outline.md` and `Advisor_Feedback.md` with PDFs
+- `Presentation/`: draft and final decks, `Slide_Outline.md`, `Advisor_Feedback.md` and `Run_Sheet.md` with PDFs
 
 ## 5. Ethics, Licensing and Attribution
 
